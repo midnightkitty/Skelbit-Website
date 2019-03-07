@@ -1,0 +1,174 @@
+/*======General======*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f9f9fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*======Side Navigation======*/
+/*Centers the sidenav*/
+.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  background-color: #2F4050;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
+
+/*Makes the List for Sidenav*/
+.sidenav li a {
+  display: block;
+  color: #7B8798;
+  padding: 16px 16px;
+  text-decoration: none;
+  text-align: center;
+  border-left: 3px solid #2F4050;
+  border-right: 3px solid #2F4050;
+  margin-top: 0px;
+}
+
+/*Makes the List Hovering Side Navigation*/
+.sidenav li a:hover {
+  background-color: #293846;
+  color: white;
+  border-left: 3px solid #293846;
+  border-right: 3px solid #293846;
+  cursor: pointer;
+}
+
+/*Changes Sidebar When Clicked*/
+.sidenav .active {
+  background-color: #293846;
+  color: white;
+  border-left: 3px solid #285fb7;
+  border-right: 3px solid #293846;
+}
+
+/*Changes Sidebar When Hovering*/
+.sidenav .active:hover {
+  background-color: #293846;
+  color: white;
+  border-left: 3px solid #285fb7;
+}
+
+/*======Body Content======*/
+/*Centers Whole Body Style*/
+.bodyStyled {
+  width: auto;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+/*Changes the h1*/
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+/*======About Page======*/
+/*Centering the Page Images*/
+.row {
+  margin: 8px -16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Adds Padding to the Images*/
+.row, .row>.column {
+  padding: 8px;
+}
+
+.column {
+  width: auto;
+  margin-right: 20px;
+  padding: 0px;
+  background-color: white;
+  border-left: 1px solid #c3c6c8;
+  border-right: 1px solid #c3c6c8;
+  border-bottom: 1px solid #c3c6c8;
+}
+
+#descrip {
+  color: #444444;
+}
+
+#himanth {
+  border-top: 5px solid purple;
+  border-radius: 5px;
+}
+
+#brennan {
+  border-top: 5px solid orange;
+  border-radius: 5px;
+}
+
+#owen {
+  border-top: 5px solid #42bdbe;
+  border-radius: 5px;
+}
+
+#marcus {
+  border-top: 5px solid #258e25;
+  border-radius: 5px;
+  height: 150px;
+}
+
+#isaac {
+  border-top: 5px solid #e6e600;
+  border-radius: 5px;
+  height: 150px;
+}
+
+@media screen and (max-width: 1070px) {
+  .column {
+    margin-top: 20px;
+  }
+}
+
+.content {
+  padding: 10px;
+}
+
+/*======Contact Form======*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
